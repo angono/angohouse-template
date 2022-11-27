@@ -1,0 +1,82 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html, body {
+  font-family: 'verdana','calibri', 'consolas', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.sidenav-trigger {
+  color: #000;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*Styling Contents*/
+h1 {
+  font-size: 40px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.card-image img {
+  border-radius: 4px;
+}
+
+.card-title {
+  font-size: 18px!important;
+  font-weight: 400!important;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-bottom {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+div.horizontal-scrollbar {
+  margin-top: 20px;
+  padding: 4px;
+  width: 100%;
+  overflow: auto!important;
+  white-space: nowrap!important;
+}
+
+/*FIELDS FORM*/
+input, select, textarea {
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: black;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea {
+  height: 200px;
+}
